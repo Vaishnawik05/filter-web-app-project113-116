@@ -1,0 +1,24 @@
+h3
+{
+font-size: 25px !important;
+}
+
+
+
+canvas
+{
+    animation-name: example;
+    animation-duration: 100s;
+    animation-iteration-count: infinte;
+}
+
+@keyframes example
+{
+    from {box-shadow: 1px 1px 38px blue;}
+    to {box-shadow: 1px 1px 38px indigo;}
+    to {box-shadow: 1px 1px 38px blueviolet;}
+    to {box-shadow: 1px 1px 38px purple;}
+    to {box-shadow: 1px 1px 38px rgb(55, 55, 122);}
+    to {box-shadow: 1px 1px 38px skyblue;}
+    to {box-shadow: 1px 1px 38px pink;} 
+}
